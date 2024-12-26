@@ -11,6 +11,8 @@ import TermsAndCondition from './utils/TermsAndCondition';
 import Privacy from './utils/Privacy';
 import AboutUs from './utils/AboutUs';
 import ContactUs from './utils/ContactUs';
+import Dashboard from './utils/Dashboard';
+import Purchase from './utils/Purchase';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
            <Route path='/policy'element={<Privacy/>}/>
            <Route path='/about'element={<AboutUs/>}/>
            <Route path='/contact'element={<ContactUs/>}/>
+           <Route path='/dash'element={<Dashboard/>}/>
+           <Route path='/purchase'element={<Purchase/>}/>
     </Routes>
    </BrowserRouter>
   );
